@@ -25,5 +25,14 @@ namespace BinhDuongVirtualTour.Controllers
             Session["lng"] = db.VISIT_IMAGE.SingleOrDefault(n => n.Img_Id == imgId).lng.ToString();
             return View(da);
         }
+        public JsonResult LoadMap()
+        {
+            var da = db.VISIT_IMAGE.ToList();
+            return Json(da, JsonRequestBehavior.AllowGet);
+        }
+        public ActionResult VR()
+        {
+            return View();
+        }
     }
 }

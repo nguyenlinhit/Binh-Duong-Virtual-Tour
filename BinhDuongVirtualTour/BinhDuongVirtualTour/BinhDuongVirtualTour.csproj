@@ -208,21 +208,39 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\assets\img\imgCongChua.jpg" />
-    <Content Include="Content\assets\img\imgCongVienTPM.JPG" />
-    <Content Include="Content\assets\img\imgDaiPhunNuocTPM.JPG" />
+    <Content Include="Content\assets\img\imgCongTruongEIU.jpg" />
+    <Content Include="Content\assets\img\imgCongVienTPM.jpg" />
+    <Content Include="Content\assets\img\imgDaiPhunNuocTPM.jpg" />
+    <Content Include="Content\assets\img\imgHanhLangEIU.JPG" />
     <Content Include="Content\assets\img\imgSanChua.jpg" />
-    <Content Include="Content\assets\img\imgTrungTamHanhChinh.JPG" />
+    <Content Include="Content\assets\img\imgSanTruongEIU.JPG" />
+    <Content Include="Content\assets\img\imgTrungTamHanhChinh.jpg" />
     <Content Include="Content\assets\img\imgTrungTamHoiNghiVaTrienLam.jpg" />
     <Content Include="Content\assets\img\imgTuongPhatLon.jpg" />
+    <Content Include="Content\assets\img\instruction\cd_congvientpm.jpg" />
+    <Content Include="Content\assets\img\instruction\cd_trungtamhanhchinh.jpg" />
+    <Content Include="Content\assets\img\instruction\cd_trungtamhoinghivatrienlam.jpg" />
     <Content Include="Content\assets\img\logobinhduong.PNG" />
     <Content Include="Content\assets\img\tdmu_img\imgCongChua.jpg" />
+    <Content Include="Content\assets\img\tdmu_img\imgCongTruongEIU.jpg" />
     <Content Include="Content\assets\img\tdmu_img\imgCongVienTPM.jpg" />
     <Content Include="Content\assets\img\tdmu_img\imgDaiPhunNuocTPM.jpg" />
+    <Content Include="Content\assets\img\tdmu_img\imgHanhLangEIU.JPG" />
     <Content Include="Content\assets\img\tdmu_img\imgSanChua.jpg" />
     <Content Include="Content\assets\img\tdmu_img\imgSanChua2.jpg" />
+    <Content Include="Content\assets\img\tdmu_img\imgSanTruongEIU.JPG" />
     <Content Include="Content\assets\img\tdmu_img\imgTrungTamHanhChinh.jpg" />
     <Content Include="Content\assets\img\tdmu_img\imgTrungTamHoiNghiVaTrienLam.jpg" />
     <Content Include="Content\assets\img\tdmu_img\imgTuongPhatLon.jpg" />
+    <Content Include="Content\assets\js\dist\aframe-animation-component.min.js" />
+    <Content Include="Content\assets\js\dist\aframe-event-set-component.min.js" />
+    <Content Include="Content\assets\js\dist\aframe-layout-component.min.js" />
+    <Content Include="Content\assets\js\dist\aframe-master.js" />
+    <Content Include="Content\assets\js\dist\aframe-master.min.js" />
+    <Content Include="Content\assets\js\dist\aframe-template-component.min.js" />
+    <Content Include="Content\assets\js\dist\set-image.js" />
+    <Content Include="Content\assets\js\jquery.js" />
+    <Content Include="Content\assets\js\jquery.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -245,6 +263,8 @@
     <Content Include="Models\BinhDuongVirtualTourModel.edmx.diagram">
       <DependentUpon>BinhDuongVirtualTourModel.edmx</DependentUpon>
     </Content>
+    <Content Include="Content\assets\js\dist\aframe-master.js.map" />
+    <Content Include="Content\assets\js\dist\aframe-master.min.js.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -299,12 +319,14 @@
     <Content Include="Views\Shared\_MenuTienIchPartial.cshtml" />
     <Content Include="Views\Shared\_PanoramaPartial.cshtml" />
     <Content Include="Views\Shared\BinhDuongNewCityPartial.cshtml" />
+    <Content Include="Views\Shared\_VRLayout.cshtml" />
+    <Content Include="Views\Visit\VR.cshtml" />
+    <Content Include="Views\Shared\EIUPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\assets\css\" />
     <Folder Include="Content\assets\fonts\" />
-    <Folder Include="Content\assets\js\" />
     <Folder Include="Content\assets\music\" />
   </ItemGroup>
   <ItemGroup>
