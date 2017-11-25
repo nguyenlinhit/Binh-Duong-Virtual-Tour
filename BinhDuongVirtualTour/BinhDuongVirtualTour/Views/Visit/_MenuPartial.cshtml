@@ -1,0 +1,19 @@
+﻿
+<div id="divMenu" style="position:absolute;left:10px;z-index: 1;">
+    <abbr title="MENU"> <img id="imgMenu" src="../Content/assets/img/icon/menu.png" style="width: 50px;height: 50px;margin-top: 2%;"></abbr>
+    <div id="divLstMenu" style="background-color: black;width: 200px;height: auto;left:2%;opacity: 0.9;position:absolute;left:20px;margin-top: 2%;">
+        <ul id="lstMenu">
+            @foreach (var item in Model)
+            {
+                if (item.idType == Convert.ToInt32(Session["idType"])) { 
+                <a href="@Url.Action("Visit","Visit",new {imgId=item.Img_Id})"><li>@item.Img_Title</li></a>
+                }
+            }
+
+        </ul>
+    </div>
+
+    <audio id="audioNhac" style="visibility: hidden;" autoplay="autoplay" controls="controls">
+        <source src="../Content/assets/music/nhacnen.mp3" type="audio/mpeg">
+    </audio>
+</div>

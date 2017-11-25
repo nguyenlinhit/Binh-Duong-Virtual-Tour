@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BinhDuongVirtualTourModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="PLACE">
+    <Key>
+      <PropertyRef Name="idType" />
+    </Key>
+    <Property Name="idType" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Place_Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="VISIT_IMAGE">
+    <Key>
+      <PropertyRef Name="Img_Id" />
+    </Key>
+    <Property Name="Img_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Img_Src" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Img_Title" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Img_Link" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Img_Area" Type="varchar" MaxLength="50" />
+    <Property Name="lat" Type="float" />
+    <Property Name="lng" Type="float" />
+    <Property Name="idType" Type="int" />
+  </EntityType>
+  <EntityContainer Name="BinhDuongVirtualTourModelStoreContainer">
+    <EntitySet Name="PLACE" EntityType="Self.PLACE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VISIT_IMAGE" EntityType="Self.VISIT_IMAGE" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Tham Quan";
+    Layout = "~/Views/Shared/_VisitLayout.cshtml";
+}
+<!-- Panorama-->
+<div id="panorama">
+    <!--Menu List-->
+    @Html.Action("_MenuPartial", "Visit")
+
+    <!--Hướng dẫn-->
+
+    @Html.Partial("_HuongDanPartial")
+
+    <!--Menu tiện ích-->
+    @Html.Partial("_MenuTienIchPartial")
+</div>
+<script>
+       viewer = pannellum.viewer('panorama', {
+        "default": {
+            "firstScene": "pan_@Model.Img_Area",
+            "sceneFadeDuration": 1000,
+            "autoRotate": 2,
+            "autoLoad": true,
+            "compass": false,
+            "preview": "../Content/assets/img/tdmu_img/"+"@Model.Img_Src",
+            "showControls": false,
+            "autoRotateInactivityDelay": 10000
+        },
+
+        "scenes": {
+            @Html.Partial("_PanoramaPartial")
+        }
+    });
+</script>
+
+
+
