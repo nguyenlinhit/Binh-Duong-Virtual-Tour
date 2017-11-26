@@ -322,6 +322,8 @@
     <Content Include="Views\Shared\_VRLayout.cshtml" />
     <Content Include="Views\Visit\VR.cshtml" />
     <Content Include="Views\Shared\EIUPartial.cshtml" />
+    <Content Include="Views\Shared\HoiKhanhPagodaPartial.cshtml" />
+    <Content Include="Views\Shared\TDMUPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

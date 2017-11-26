@@ -204,3 +204,4 @@ D:\Binh-Duong-Virtual-Tour\BinhDuongVirtualTour\BinhDuongVirtualTour\bin\Microso
 D:\Binh-Duong-Virtual-Tour\BinhDuongVirtualTour\BinhDuongVirtualTour\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\Binh-Duong-Virtual-Tour\BinhDuongVirtualTour\BinhDuongVirtualTour\obj\Debug\BinhDuongVirtualTour.dll
 D:\Binh-Duong-Virtual-Tour\BinhDuongVirtualTour\BinhDuongVirtualTour\obj\Debug\BinhDuongVirtualTour.pdb
+D:\Binh-Duong-Virtual-Tour\BinhDuongVirtualTour\BinhDuongVirtualTour\obj\Debug\BinhDuongVirtualTour.csprojResolveAssemblyReference.cache
